@@ -1,3 +1,86 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseURL = "https://daniela.miaversa.com.br/"
+languageCode = "pt-BR"
+title = "Daniela Yui"
+theme = "split"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+DefaultContentLanguage = "pt"
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = ""
+
+[params]
+  name = "Daniela Yui"
+  description = "Daniela yui é Designer, Fotógrafa e Amante da Natureza."
+  shareImageFacebook = "images/social1.jpg"
+  shareImageTwitter = "images/social2.jpg"
+  twitterHandle = "onepagelove"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Copyright
+  copyright = "&copy;2018 Daniela Yui"
+
+  # Section - Content
+  [params.content]
+    name = "Daniela Yui"
+    tagline = "Designer, Fotógrafa e Amante da Natureza"
+    bio = "Donec at libero id lectus porta dapibus eu in nibh. Cras id mauris sapien. Fusce viverra [luctus urna](#) ac rutrum. Duis semper elit eu mi facilisis eleifend. Donec semper, [ipsum in](#) malesuada congue, [purus sem](#) ullamcorper massa, sit amet lacinia nibh enim sed massa."
+
+  # Section - Visual
+  [params.visual]
+    [params.visual.image]
+      file = "images/background.jpg"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Connect"
+
+      [[params.links.list1.link]]
+        text = "Blog"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Email"
+        url = "#"
+
+      [[params.links.list1.link]]
+        text = "Newsletter"
+        url = "#"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "#"
+
+      [[params.links.list2.link]]
+        text = "Dribbble"
+        url = "#"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Network"
+
+      [[params.links.list3.link]]
+        text = "Link One"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Two"
+        url = "#"
+
+      [[params.links.list3.link]]
+        text = "Link Three"
+        url = "#"
